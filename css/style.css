@@ -1,0 +1,564 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+@font-face {
+    src: url(../Fonts/AR/DIN\ Next\ LT\ W23\ Light.otf);
+    font-family: Arabic;
+}
+@font-face{
+    src: url(../Fonts/EN/Montserrat-Bold.otf);
+    font-family: custom_bold;
+}
+@font-face{
+    src: url(../Fonts/EN/Montserrat-Light.otf);
+    font-family: custom_light;
+}
+@font-face{
+    src: url(../Fonts/EN/Montserrat-Black.otf);
+    font-family: custom_normal;
+}
+
+/* Banner Part Starts here */
+#banner{
+    width: 100%;
+    height: 700px;
+    background: url(../images/cover-banner.png) no-repeat center;
+    background-position: center;
+}
+    /* Navbar starts here  */
+        .navbar{
+            position: relative;
+            
+        }
+        .navbar .navbar-collapse{
+            position: absolute;
+            right: 10px;
+        }
+
+        .navbar-brand img{
+            width: 100%;
+            height: 100px;
+        }
+
+        .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+            color: #F9A51A;
+        }
+        .nav-payment{
+            padding: 10px 20px;
+            font-size: 15px;
+            background: #F9A51A !important;
+            color: #fff !important;
+            margin-left: 15px;
+            transition: .5s ease-in-out;
+            border-radius: 3px;
+        }
+        .navbar-light .navbar-nav .nav-link {
+            font-family: custom_bold;  
+            font-size: 15px;
+        }
+        .nav-payment:hover{
+            background: #a76d10 !important;
+        }
+    /* Navbar ends here */
+
+.banner_text{
+    float: right;
+    text-align: right;
+} 
+.banner_text h1{
+    font-size: 140px;
+    font-family: custom_normal;
+    color: #F9A51A;
+    margin-top: 110px;
+}
+.banner_text h1 span{
+    color: #46802b;
+}
+
+.banner_text h2{
+    color: #fff;
+    font-size: 50px;
+    font-family: custom_normal;
+}
+
+.banner_text h3{
+    color: #fff;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-family: custom_normal;
+    margin-top: 20px;
+}
+
+.banner_text .arabic{
+    font-family: Arabic;
+    color: #fff;
+    letter-spacing: normal;
+    background: none;
+}
+
+
+/* Banner Ends Here  */
+
+
+
+/* Who we are starts here */
+    #who_we_are{
+        padding:100px 0;
+        background: rgb(26, 26, 26);
+    }
+.our_service_info_header{
+    color: #F9A51A !important;
+}
+    .section_head{
+        margin: 30px 0;
+        text-align: center;
+        position: relative;
+    }
+
+    .section_head img{
+        width: 100%;
+        height: 20px;
+        margin-top: 5px;
+    }
+    .section_head h1{
+        font-family: custom_normal;
+        font-size: 25px;
+        color: #F9A51A;
+    }
+    .left_bar{
+        width: 33.33%;
+        float: left;
+    }
+    .head{
+        width: 100%;
+        float: left;
+        text-align: center;
+        color: #F9A51A;
+    }
+    .right_bar{
+        width: 33.33%;
+        float: left;
+    }
+
+
+    #who_we_are p{
+        text-align: center;
+        color: #f1f1f1;
+        font-family: custom_bold;
+        font-weight: 100;
+    }
+    .who_we_are_texts{
+        margin-top: 20px;
+    }
+    .who_we_are_right_img{
+        position: absolute;
+        right: 0;
+        width: 100%;
+        height: 250px;
+        background: url(../images/Logo_big.png) no-repeat center;
+        background-size: contain;
+    }
+
+/* Who we are ends here */
+
+
+/* our services starts here  */
+
+#our_services{
+    padding: 60px 0;
+    position: relative;
+}
+.section_head .bar{
+    width: 76.8%;
+    height: 3px;
+    background: #F9A51A;
+    position: absolute;
+    top: 15px;
+    left: 236px;
+}
+
+
+#our_services .card{
+    height: 450px;
+    margin: 10px;
+    border: none;
+    font-family: custom_bold;
+   
+}
+#our_services .card .card-body{
+    transition: .2s ease-in-out;
+}
+#our_services .card:hover .card-body{
+    margin-top: 10px;
+}
+#our_services .card .card-body .card-title{
+    color: #F9A51A;
+    font-size: 22px !important;
+}
+#our_services .card .card-body .card-text{
+    font-size: 15px;
+}
+#our_services .card img{
+    width: 100%;
+    max-height: 200px;
+    padding: 10px;
+    transition: .3s ease-in-out;
+}
+#our_services .card:hover img{
+    transform: scale(1.1);
+}
+
+.our_service_info_header_for{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+.our_services_tickets{
+    margin: 30px 0;
+    text-align: center;
+}
+
+.our_services_tickets .main_box{
+    width: 100%;
+    height: 460px;
+    font-size: 30px;
+    padding: 20px;
+    transition: .5s ease 
+}
+.our_services_tickets .main_box:hover{
+    margin-top: -30px;
+}
+.our_services_tickets .main_box .box_header{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background: #F9A51A;
+    border-bottom: 1px solid #F9A51A;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-family: custom_bold;
+    font-size: 20px;
+}
+
+.our_services_tickets .main_box .box_icon{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    
+
+}
+.our_services_tickets .main_box .box_icon .circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #F9A51A;
+    color: #F9A51A;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 100px;
+    transition: .2s ease-in-out;
+}
+.our_services_tickets .main_box:hover .box_icon .circle{
+    background: #F9A51A;
+    color: #fff;
+}
+
+
+.our_services_tickets .main_box .box_paragraph{
+    text-align: center;
+    font-size: 15px;
+    color: #F9A51A;
+    padding:0 5px;
+    font-family: custom_bold;
+}
+.our_services_tickets a{
+    text-decoration: none;
+    color: #F9A51A;
+    font-size: 15px;
+    transition: .2s ease-in-out;
+    
+}
+.our_services_tickets .main_box:hover a{
+    background: #F9A51A;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+/* our services ends here  */
+
+/* other channel starts here  */
+#other_channels{
+    width: 100%;
+    height: auto;
+    background: rgb(26, 26, 26);
+    padding: 50px;
+    
+}
+#other_channels .head .our_service_info_header_for{
+    text-align: center;
+    
+}
+
+#other_channels p{
+    padding: 8px;
+    color: #fff;
+    font-family: custom_bold;
+}
+#other_channels .head{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#other_channels .section_head{
+    margin: 0;
+    padding: 40px 0;
+    font-family: custom_bold;
+}
+.section_head_other_channel{
+    position: relative;
+}
+.section_head_other_channel h1{
+    font-size: 25px;
+    font-family: custom_normal;
+    color: #F9A51A;
+}
+.section_head_other_channel .bar{
+    width: 76.8%;
+    height: 3px;
+    background: #F9A51A;
+    position: absolute;
+    top: 15px;
+    left: 236px;
+}
+
+#other_channels .carousel-item img{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+#other_channels .carousel-item h5{
+    
+    font-family: custom_normal;
+    font-size: 15px;
+    color: #F9A51A;
+    padding: 5px 10px;
+    text-align: left;
+}
+#other_channels .carousel-item p{
+    
+    color: rgb(248, 248, 248);
+    font-family: custom_bold;
+    font-size: 14px;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+
+.slider_wrap{
+    width: 100%;
+    height: 300px;
+    background: #000;
+}
+.div_box{
+    width: 400px;
+    height: 280px;
+    background: #F9A51A;
+    margin: 10px;
+    margin: 10px;
+    position: relative;
+}
+.div_box .box_icon{
+    position: relative;
+}
+.div_box .box_icon .circle{
+    width: 100px;
+    height: 100px;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 70px;
+    transform: translate(-50%, -50%);
+    line-height: 100px;
+    text-align: center;
+    color:#fff;
+}
+.div_box h1{
+    position: absolute;
+    left: 50%;
+    right: 25%;
+    bottom: 100px;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+}
+/* other channel ends here  */
+
+
+
+/* Contact information starts here   */
+#contact_information{
+    margin: 100px 0;
+}
+    .contact_box{
+        width: 100%;
+        height: 200px;
+        padding: 10px;
+    }
+    .contact_box .icon{
+        height: 30px;
+        font-size: 40px;
+        text-align: center;
+        color: #F9A51A;
+    }
+    .contact_box .contact_type{
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        color: #F9A51A;
+        font-size: 20px;
+        font-family: custom_normal;
+    }
+    .contact_box .contact_details{
+        text-align: center;
+        font-family: custom_bold;
+    }
+
+    .contact_info_head{
+        margin: 50px 0;
+        font-family: custom_normal;
+    }
+    .contact_info_head h1{
+        color: #F9A51A;
+    }
+    .btn_contact{
+        width: 100%;
+        background: #F9A51A;
+        color: #fff;
+        font-family: custom_bold;
+    }
+    .contact_form{
+        margin-top: 60px;
+        padding-left: 80px;
+        font-family: custom_bold;
+    }
+    .contact_form label{
+        color: #F9A51A;
+        font-family: custom_normal;
+    }
+    .under_bar{
+        border-bottom: 1px solid #F9A51A;
+        padding-bottom: 50px;
+    }
+    .luku p{
+        font-family: custom_bold;
+    }
+ /* Contact information ends here   */
+
+
+ #footer{
+     width: 100%;
+     height: auto;
+     background: rgb(26, 26, 26);
+     font-family: custom_bold;
+     
+ }
+ #footer .one .circle{
+     width: 200px;
+     height: 100px;
+     margin-top: 30px;
+     position: relative;
+     margin-top: 30px;
+ }
+ #footer .one .circle img{
+     width: 100%;
+     height: 100px;
+     padding: 5px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+ #footer .one p{
+     color: #fff;
+     font-size: 12px;
+ }
+ #footer .one h1{
+     font-size: 15px;
+     margin-top: 30px;
+    
+ }
+ #footer .one .icon_set {
+     float: left;
+ }
+ #footer .one .icon_set a{
+    text-decoration: none;
+    color: #F9A51A;
+    letter-spacing: 25px;
+    font-size: 20px;
+ }
+ #footer .two h1{
+     color: #F9A51A;
+     font-size: 17px;
+     margin-top: 20px;
+ }
+ #footer .two{
+     
+     padding: 30px 0;
+ }
+ #footer .two ul{
+     list-style: none;
+     padding-left: 10px;
+     margin-top: 20px;
+     font-family: custom_bold;
+     
+ }
+ #footer .two ul li{
+     margin: 10px 0;
+ }
+ #footer .two ul li a{
+     text-decoration: none;
+     color: #fff;
+     font-size: 12px;
+ }
+ #footer .four{
+     padding:50px 0;
+ } 
+#footer .four h1{
+    font-size: 22px;
+    color: #F9A51A;
+}
+
+.four .form-control{
+    background: rgb(26, 26, 26);
+}
+.btn_contact_footer{
+    background: #F9A51A;
+    padding: 5px 5px;
+    border-radius: 2px;
+}
+ #copyright{
+     width: 100%;
+     height: 30px;
+     line-height: 30px;
+     background:#181818;
+     text-align: center;
+     color: #fff;
+     font-size: 11px;
+ }
